@@ -1,0 +1,122 @@
+*{
+    font-family: Avenir, sans-serif;
+    box-sizing: content-box;
+}
+body{
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    border:rgb(110, 110, 110) solid;
+    border-radius: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(110, 110, 110)
+}
+
+ p{
+    text-align: justify;
+ }
+
+h2{  
+        background: linear-gradient(to right, #63a19c, #000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ 
+
+
+
+/* Informations personnelles */
+
+#infos {
+    color: rgb(255, 255, 255);
+    background-color: rgb(141, 164, 173);
+    flex: 1;
+    padding: 15px 20px 15px 20px;
+    border:rgb(73, 73, 73) solid;
+    border-radius: 15px;
+}
+
+#infos h1{
+        text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
+}
+
+
+.title, .nom{ 
+    text-align: center;
+}
+
+
+
+#formations {
+    color: rgb(73, 73, 73);
+    background-color: rgb(223, 221, 224);
+    flex: 3;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border:rgb(73, 73, 73) solid;
+    border-radius: 15px;
+    
+}
+
+.autoformation{
+    padding-top: 30px;
+}
+
+
+.title {
+    margin-top: 80px;
+    color: rgb(245, 235, 222);
+}
+ 
+
+
+/* Expériences professionnelles */
+
+#xp {
+    color: rgb(73, 73, 73);
+    background-color: rgb(223, 221, 224);
+    flex: 3;
+}
+
+#xp h1 {
+    text-decoration: underline;
+}
+
+.exp{
+    padding-top: 20px;
+}
+
+
+.certi{
+  color: rgb(122, 122, 121);
+}
+
+.interets{
+    padding-top: 30px;
+}
+
+.interets li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+ 
+@media screen and (min-width: 800px) {
+    #container {
+        flex-direction: row;
+    }
+}

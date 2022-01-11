@@ -1,6 +1,7 @@
 *{
     font-family: Avenir, sans-serif;
     box-sizing: content-box;
+    
 }
 body{
     background-color: black;
@@ -30,9 +31,20 @@ a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+ul {
+    display: flex;
+    flex-direction: row;     
+    list-style-type: none;  /* enlever les point de la liste */
+    line-height:-2px;
+    cursor: pointer;
+     
+}
  
-
-
+ul li{                  /* eloigner les deux icones */
+    display:inline;
+    padding: 15px 20px 15px 20px;;
+    margin:0;
+}
 
 /* Informations personnelles */
 
@@ -107,10 +119,6 @@ a{
 .interets li{
     list-style: none;
 }
-
-
-
-
 
 
 

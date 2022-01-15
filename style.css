@@ -1,9 +1,9 @@
 *{
     font-family: Avenir, sans-serif;
     box-sizing: content-box;
-    
-    
+ 
 }
+
 body{
     background-color: black;
 }
@@ -19,8 +19,9 @@ body{
      
 }
 
- p{
+p{
     text-align: justify;
+     
  }
 
 h2{  
@@ -121,11 +122,15 @@ ul li{                  /* eloigner les deux icones */
     list-style: none;
 }
 
-
-
-
+.skills li{
+    text-indent : -5%;
+}
 
  
+
+
+
+
 @media screen and (min-width: 800px) {
     #container {
         flex-direction: row;

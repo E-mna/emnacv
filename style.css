@@ -2,6 +2,7 @@
     font-family: Avenir, sans-serif;
     box-sizing: content-box;
     
+    
 }
 body{
     background-color: black;
@@ -15,6 +16,7 @@ body{
     margin-right: 150px;
     margin-left: 150px;
     background-color: rgb(110, 110, 110)
+     
 }
 
  p{
@@ -44,6 +46,12 @@ ul li{                  /* eloigner les deux icones */
     display:inline;
     padding: 15px 20px 15px 20px;;
     margin:0;
+    
+}
+
+.interets li{
+    margin-left: 20px;
+    float:left;
 }
 
 /* Informations personnelles */
@@ -79,11 +87,6 @@ ul li{                  /* eloigner les deux icones */
     
 }
 
-.autoformation{
-    padding-top: 30px;
-}
-
-
 .title {
     margin-top: 80px;
     color: rgb(245, 235, 222);
@@ -99,12 +102,10 @@ ul li{                  /* eloigner les deux icones */
     flex: 3;
 }
 
-#xp h1 {
-    text-decoration: underline;
-}
+ 
 
 .exp{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 
@@ -113,12 +114,14 @@ ul li{                  /* eloigner les deux icones */
 }
 
 .interets{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .interets li{
     list-style: none;
 }
+
+
 
 
 

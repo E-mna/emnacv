@@ -20,8 +20,6 @@ body{
      
 }
 
-
-
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -30,7 +28,6 @@ ul {
     display: flex;
     flex-direction: row;     
     list-style-type: none;  /* enlever les point de la liste */
-    line-height:-2px;
     cursor: pointer;
      
 }
@@ -45,6 +42,7 @@ ul li{                  /* eloigner les deux icones */
 .interets li{
     margin-left: 20px;
     float:left;
+    list-style: none;
 }
 
 /* Informations personnelles */
@@ -63,9 +61,11 @@ ul li{                  /* eloigner les deux icones */
 }
 
 h2{  
+    padding-top: 35px;
     background: linear-gradient(to right, #63a19c, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+     
 }
 
 
@@ -85,46 +85,30 @@ h2{
     background-color: rgb(223, 221, 224);
     flex: 3;
     padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 50px;
+    padding-top: 15px;
     border:rgb(73, 73, 73) solid;
     border-radius: 15px;
     
 }
 
 .title {
-    margin-top: 70px;
+    margin-top: 50px;
     color: rgb(252, 248, 244);
 }
  
-
-#xp {
-    color: rgb(73, 73, 73);
-    background-color: rgb(223, 221, 224);
-    flex: 3;
-}
-
- 
-
-.exp{
-    padding-top: 10px;
-}
-
 
 .certi{
   color: rgb(122, 122, 121);
 }
 
-.interets{
-    padding-top: 10px;
+
+.ecole{
+    text-decoration: underline;
+    text-decoration-color : rgb(46, 53, 54);
+    text-transform: uppercase;
 }
-
-.interets li{
-    list-style: none;
-}
-
- 
- 
-
 
 
 

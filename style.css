@@ -1,117 +1,112 @@
-*{
-    font-family: Avenir, sans-serif;
-    box-sizing: content-box;
-    word-break: normal;
- 
+* {
+  font-family: Avenir, sans-serif;
+  box-sizing: content-box;
+  word-break: normal;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 #container {
-    display: flex;
-    flex-direction: column;
-    border:rgb(110, 110, 110) solid;
-    border-radius: 15px;
-    margin-right: 150px;
-    margin-left: 150px;
-    background-color: rgb(110, 110, 110)
+  display: flex;
+  flex-direction: column;
+  border: rgb(110, 110, 110) solid;
+  border-radius: 15px;
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: rgb(110, 110, 110);
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 ul {
-    display: flex;
-    flex-direction: row;     
-    list-style-type: none;  /* enlever les point de la liste */
-    cursor: pointer; 
-}
- 
-ul li{                  /* eloigner les deux icones */
-    display:inline;
-    padding: 15px 20px 15px 20px;;
-    margin:0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none; /* enlever les point de la liste */
+  cursor: pointer;
 }
 
-.interets li{
-    margin-left: 20px;
-    float:left;
-    list-style: none;
+ul li {
+  /* eloigner les deux icones */
+  display: inline;
+  padding: 15px 20px 15px 20px;
+  margin: 0;
 }
 
-small{
-    color: rgb(189, 147, 147);
+.interets li {
+  margin-left: 20px;
+  float: left;
+  list-style: none;
+}
+
+small {
+  color: rgb(189, 147, 147);
 }
 
 /* Informations personnelles */
 
 #infos {
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(-20deg, #123c58 0%, #276d838c 100%);
-    flex: 1;
-    padding: 15px 60px 15px 60px;
-    border:rgb(73, 73, 73) solid;
-    border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(-20deg, #123c58 0%, #276d838c 100%);
+  flex: 1;
+  padding: 15px 60px 15px 60px;
+  border: rgb(73, 73, 73) solid;
+  border-radius: 15px;
 }
 
-#infos h1{
-        text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
+#infos h1 {
+  text-shadow: 2px 3px 2px rgba(255, 255, 255, 0.3);
 }
 
-h2{     
-    background-color: #E4E4E1;
-    background-image: linear-gradient(-20deg, #102e42 0%, #4e82928c 100%);
- 	background-blend-mode: normal, multiply;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 50px;
+h2 {
+  background-color: #e4e4e1;
+  background-image: linear-gradient(-20deg, #102e42 0%, #4e82928c 100%);
+  background-blend-mode: normal, multiply;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-
-.title, .nom{ 
-    text-align: center;
+.title,
+.nom {
+  text-align: center;
 }
 
 .title {
-    margin-top: 80px;
-    color: rgb(252, 248, 244);
+  margin-top: 80px;
+  color: rgb(252, 248, 244);
 }
- 
- 
-
 
 /* Expériences professionnelles */
 
 #formations {
-    color: rgb(73, 73, 73);
-    background-color: rgb(223, 221, 224);
-    flex: 3;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    border:rgb(73, 73, 73) solid;
-    border-radius: 15px; 
-    text-align: justify;
+  color: rgb(73, 73, 73);
+  background-color: rgb(223, 221, 224);
+  flex: 3;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border: rgb(73, 73, 73) solid;
+  border-radius: 15px;
+  text-align: justify;
 }
- 
 
-
-.certi{
+.certi {
   color: rgb(122, 122, 121);
 }
 
- 
-
-
+.stagedetail {
+  text-transform: 10px;
+  font-size: small;
+}
 
 @media screen and (min-width: 800px) {
-    #container {
-        flex-direction: row;
-    }
-
+  #container {
+    flex-direction: row;
+  }
 }
